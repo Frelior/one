@@ -296,7 +296,10 @@ position: absolute;
 
 .hover_zoom:hover{
     transform: scale(1.2);
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
+    text-underline-offset: 3px;
+    text-decoration: underline; 
+    
 }
 
 .sliderimage{
@@ -458,9 +461,15 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 .tel{
     margin-top: 11px;
     margin-bottom: 20px;
+}
+
+body a:hover{
+    transform: scale(1.2) !important;
+    transition: all 0.1s ease !important;
+    text-underline-offset: 3px !important;
+    text-decoration: underline !important;
 }
